@@ -15,6 +15,8 @@
   <name>petclinic</name>
 
   <properties>
+  
+  
 
     <!-- Generic properties -->
     <java.version>1.8</java.version>
@@ -231,7 +233,18 @@
             </plugin>
     </plugins>
   </build>
-
+ <distributionManagement>
+    <repository>
+        <id>artifactory-release</id>
+        <name>Artifactory Releases</name>
+        <url>https://artifactory.company.com/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>artifactory-snapshot</id>
+        <name>Artifactory Snapshots</name>
+        <url>https://artifacts.mycompany.com/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
   <!-- Apache 2 license -->
   <licenses>
     <license>
