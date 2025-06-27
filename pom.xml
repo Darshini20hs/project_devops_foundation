@@ -237,12 +237,12 @@
     <repository>
         <id>artifactory-release</id>
         <name>Artifactory Releases</name>
-        <url>https://artifactory.company.com/artifactory/libs-release-local</url>
+        <url>https://mycompany.jfrog.io/artifactory/my-app-libs-release</url>
     </repository>
     <snapshotRepository>
         <id>artifactory-snapshot</id>
         <name>Artifactory Snapshots</name>
-        <url>https://artifacts.mycompany.com/artifactory/libs-snapshot-local</url>
+        <url>https://mycompany.jfrog.io/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
   <!-- Apache 2 license -->
